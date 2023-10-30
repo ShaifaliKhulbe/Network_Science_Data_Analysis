@@ -20,9 +20,16 @@ This project involves the analysis of tweets related to the "Hyderabad blast" to
 
 1. **Graph Creation**: A graph (G) is created where nodes represent tweets, and edges are established based on cosine similarity between the tweet texts.
 
-2. **Graph Analysis**: The graph is analyzed to calculate various centrality measures, degree distribution, and clustering coefficients.
+2. **Graph Analysis**:
+   - **Degree Distribution**: The degree distribution of the graph is calculated.
+   - **Degree Centrality**: Degree centrality of all tweets is calculated, and the top 10 tweets are identified.
+   - **PageRank Centrality**: PageRank centrality of all tweets is calculated, and the top 10 tweets are identified.
+   - **Clustering Coefficients**: Clustering coefficients are calculated for the entire graph, top 10 tweets, and bottom 10 tweets.
 
 3. **BERT Embedding-Based Graph (G1)**: A similar graph (G1) is created, but cosine similarity is calculated based on pre-trained BERT uncased embeddings.
+
+4. **Comparison of Centrality Measures**:
+   - A comparison is made between G (text-based) and G1 (BERT-based) in terms of degree centrality, PageRank centrality, and clustering coefficients.
 
 ## Sentiment Calculation
 
